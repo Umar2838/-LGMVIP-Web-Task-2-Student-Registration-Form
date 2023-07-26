@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Student-Registration-Form</title>
+</head>
+
+<body>
+  <div id="content">
+
+        <div class="form-container">
+        <h2>Student-Registration-Form</h2>
+        <a href="./card.html">
+        <img class="getcard" src="images/credit-card.png">
+    <h4>Get Your Card </h4>    
+        </a>
+        <div class="form-information">
+        
+       
+        <span>Full Name:</span>
+        <input type="text" id="name" placeholder="Full Name">
+        </br>
+        <span>Father Name:</span>
+        <input type="text" id="fname" placeholder="Father Name">
+        </br>
+        <span>CNIC:</span>
+        <input type="number" id="cnic"  placeholder="42101-5684831-2">
+        </br>
+        <span>Course:</span>
+        <select  id="course" class="dropdown">
+            <option value="Web Development">Web Development</option>
+            <option value="Mobile App Development">Mobile App Development</option>
+            <option value="Data Science">Data Science</option>
+            <option value="Artificial Intelligence">Artificial Intelligence</option>
+        </select>
+    
+    </br>
+    
+
+    <center><button id="btn" type="button">Register</button></center>
+
+    </div>
+
+
+    </div>
+
+</div>
+
+ 
+
+   <div id="spinner" style="display: none;"  class="spinner">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+  
+
+    <script type="module" src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+
+</html>
